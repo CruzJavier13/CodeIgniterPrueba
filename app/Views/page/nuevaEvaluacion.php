@@ -19,7 +19,7 @@
     </div>
     <div class="mb-2">
         <a type="submit" href="<?=base_url('listar');?>" class="btn btn-danger" name="cancelar" >Cancelar</a>
-        <a type="submit"  href="<?=base_url('evañuacion');?>" class="btn btn-primary" name="iniciar" >Iniciar</a>
+        <a type="submit"  href="<?=base_url('evaluacion');?>" class="btn btn-primary" name="iniciar" >Iniciar</a>
     </div>
 </form>
 
