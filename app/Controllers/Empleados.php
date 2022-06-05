@@ -29,4 +29,9 @@ class Empleados extends BaseController
 
         return view('page/evaluacion',$datos);
     }
+    public function asistencia(){
+        $datos['header']= view('template/header');
+        $datos['footer']= view('template/header');
+        return view('page/asistenciaPuntualidad.php',$datos);
+    }
 }
