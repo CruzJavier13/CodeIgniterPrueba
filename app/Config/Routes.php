@@ -52,3 +52,4 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 $routes->get('listar', 'Empleados::index');
 $routes->get('nuevo','Empleados::nuevo');
 $routes->get('evaluacion', 'Empleados::evaluacion');
+$routes->get('asistencia', 'Empleados::asistencia');
