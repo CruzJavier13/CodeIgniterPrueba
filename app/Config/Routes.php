@@ -51,5 +51,11 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 }
 $routes->get('listar', 'Empleados::index');
 $routes->get('nuevo','Empleados::nuevo');
-$routes->get('evaluacion', 'Empleados::evaluacion');
-$routes->get('asistencia', 'Empleados::asistencia');
+
+$routes->post('evaluacion', 'Empleados::evaluacion');
+
+$routes->post('asistencia', 'Empleados::asistencia');
+$routes->get('editar/(:num)', 'Empleados::editar/$1');
+$routes->get('borrar/(:num)', 'Empleados::borrar/$1');
+$routes->post('actualizar/(:num)', 'Empleados::actualizar/$1');
+$routes->post('guardar','Empleados::guardar');
