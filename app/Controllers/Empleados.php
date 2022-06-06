@@ -64,6 +64,7 @@ class Empleados extends BaseController
     }
     public function guardar(){
         $Evaluacion = new Evaluacion();
+      
         $datos['evaluacion']= $Evaluacion->orderBy('id','ASC')->findAll();
         $datos['header']= view('template/header');
         $datos['footer']= view('template/header');
@@ -72,10 +73,5 @@ class Empleados extends BaseController
         return view('page/listar',$datos);
     }
     
-    public function regresar(){
-        $datos['header']= view('template/header');
-        $datos['footer']= view('template/header');
-        return view('page/evaluacion');
-    }
     
 }

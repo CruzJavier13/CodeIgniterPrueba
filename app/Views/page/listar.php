@@ -1,11 +1,11 @@
 <?= $header; ?>
 <h3>Evaluación del Personal</h3>
 
-<div class="card">
+<div class="card" style="margin:20px;padding:40px">
 
     <div class="rounded float-start">
   
-        <a class="btn btn-primary" href="<?= base_url('nuevo'); ?>" role="button"><i class="fa-solid fa-plus"></i></a>
+        <a class="btn btn-primary" style="border-radius:45%; float:right;margin:20px" href="<?= base_url('nuevo'); ?>" role="button"><i class="fa-solid fa-plus"></i></a>
         <br />
     </div>
 
