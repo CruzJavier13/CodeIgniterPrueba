@@ -4,7 +4,7 @@ session_start();
 
 ?>
 <h4>Editar Evaluación</h4>
-<form action="/guardar" method="post" class="card">
+<form action="<?=base_url('/evaluacion')?>" method="post" class="card">
     <?php foreach ($empleado as $emp) { ?>
         <div class="mb-3">
         <input type="hidden" value="<?= $emp['id']; ?>">
@@ -14,7 +14,8 @@ session_start();
                 <!--<option value="<?php //echo $emp['nombre']; ?>"></option>-->
                 
             </select>
-            <input type="hidden" name="editar">
+            <input type="text" value ="<?=$emp['idempleado']?>" name="idempleado">
+            
         </div>
            
         <div class="mb-2">
@@ -25,7 +26,7 @@ session_start();
         </div>
         <div class="mb-2">
             <a type="submit" href="<?= base_url('listar'); ?>" class="btn btn-danger" name="cancelar">Cancelar</a>
-            <a type="submit" href="<?= base_url('evaluacion'); ?>" class="btn btn-primary" name="iniciar">Iniciar</a>
+            <input type="submit" class="btn btn-primary" value="Iniciar" name="Iniciar">
         </div>
     <?php  }; ?>
 </form>
