@@ -34,8 +34,6 @@ class Empleados extends BaseController
         $evaluacion = new Evaluacion();
         $datos['empleado']=$evaluacion->where('id',$id)->findAll();
 
-        $datos['idempleado']=$id;
-
         return view('page/editar',$datos);
     }
     public function asistencia(){
@@ -138,17 +136,25 @@ class Empleados extends BaseController
         $select = $_POST['select'];
         $desde =  $_POST['desde'];
         $hasta = $_POST['hasta'];*/
-        $evaluacion = new Empleado();
-        $idempleado=$evaluacion->where('nombre',$_POST['select'])->first();
+        $evaluacion = new Evaluacion();
+        $empleado = new Empleado();
+        if(isset($_POST['idempleado'])){
+            $datos['idempleado']= $evaluacion->where('idempleado',$_POST['idempleado'])->first();
+            $datos['editar']=1;
+        }
+        if(isset($_POST['select']))
+        {
+            $datos['idempleado']=$empleado->where('nombre',$_POST['select'])->first();
+            $datos['editar']=0;
+        }
+      
         
-        $datos=[
-            'header'=>view('template/header'),
-            'footer'=>view('template/footer'),
-            'idempleado'=> $idempleado['id'],
-            'nombre'=> $_POST['select'],
-            'desde'=> $_POST['desde'],
-            'hasta'=>$_POST['hasta']
-        ];
+        $datos['desde']= $_POST['desde'];
+        $datos['hasta']=$_POST['hasta'];
+        $datos['header']= view('template/header');
+        $datos['footer']=view('template/footer');
+        
+        
         /*$_SESSION['nombre']= $datos['nombre']=
         $_SESSION['desde']=$datos['desde']=
         $_SESSION['hasta']=$datos['nombre']= */
