@@ -14,6 +14,7 @@ session_start();
                 <!--<option value="<?php //echo $emp['nombre']; ?>"></option>-->
                 
             </select>
+            <input type="hidden" name="editar">
         </div>
            
         <div class="mb-2">
