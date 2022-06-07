@@ -1,6 +1,22 @@
 <?= $header; ?>
+<?php
+$id= null;
+$nombreEmpleado = null;
+/*
 
-    ?>
+if($editar==1){
+    foreach($idempleado as $clave){
+        $id = $clave['idempleado'];
+        $nombreEmpleado=$clave['nombre'];
+    }
+}
+if($editar==0){
+    foreach($idempleado as $clave){
+        $id = $clave['idempleado'];
+        $nombreEmpleado=$clave['nombre'];
+    }
+}*/
+?>
 <form action="<?= site_url('/asistencia') ?>" method="post">
     <div class="card">
 
@@ -38,10 +54,11 @@
             <input class="form-check-input" style="position:relative;left:90%" name="telefono" for="ud" type="checkbox" id="flexSwitchCheckChecked">
         </div>
        <!----------------------->
-        <input type="hidden" value="<?= $idempleado; ?>" name="idempleado">
-        <input type="hidden" value="<?= $nombre; ?>" name="nombre">
+        <input type="hidden" value="<?= $id; ?>" name="idempleado">
+        <input type="hidden" value="<?= $nombreEmpleado; ?>" name="nombre">
         <input type="hidden" value="<?= $desde; ?>" name="desde">
         <input type="hidden" value="<?= $hasta; ?>" name="hasta">
+        <?=print_r($idempleado);?>
         <!---------------------->
     </div>
     <div style="position:relative; left:80%;margin:20px">
@@ -50,7 +67,7 @@
             < Atras </a>
 
                 <!--href=// base_url('asistencia'); -->
-                <input type="submit" value="Siguiente >" name="Siguiente" class="btn btn-primary">
+         <input type="submit" value="Siguiente >" name="Siguiente" class="btn btn-primary">
     </div>
 </form>
 <?= $footer; ?>
