@@ -1,17 +1,19 @@
 <?= $header; ?>
 <?php
-session_start();
+
 ?>
 
     <form action="<?= site_url('/evaluacion') ?>" method="post" class="card" style="padding:40px;margin:20px">
         <div class="row" style="margin:20px">
             <label for="candidato" class="col col-form-label">Candidato:</label>
-            <select  class="col-10 form-group" aria-label="Default select example">
+            <select name="select" selec class="col-10 form-group" aria-label="Default select example">
                 <option selected>Seleccionar</option>
                 <?php foreach ($empleado as $emp) { ?>
-                    <option value="<?= $emp['nombre']; ?>"><?= $emp['nombre']; ?></option>
+                    <option  value="<?= $emp['nombre']; ?>"><?= $emp['nombre']; ?></option>
+                    
                 <?php  }; ?>
             </select>
+            
         </div>
 
         <div class="row"  style="margin:40px">
@@ -22,7 +24,7 @@ session_start();
         </div>
         <div class="mb-2" style="margin:20px;position:relative; left:70%; ">
             <a style="margin-right:40px;" type="submit" href="<?= base_url('listar'); ?>" class="btn btn-danger" name="Cancelar">Cancelar</a>
-            <input type="submit" href="<?= base_url('evaluacion'); ?>" class="btn btn-primary" name="Iniciar" value="Iniciar">
+            <input type="submit"  class="btn btn-primary" name="Iniciar" value="Iniciar">
         </div>
     </form>
 

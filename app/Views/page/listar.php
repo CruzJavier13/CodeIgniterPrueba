@@ -1,4 +1,6 @@
 <?= $header; ?>
+
+
 <h3>Evaluación del Personal</h3>
 
 <div class="card" style="margin:20px;padding:40px">
@@ -43,7 +45,15 @@
             ?>
         </tbody>
     </table>
-
+<?php
+ /*  echo $idempleado."     *";
+   echo $nombre."     *";
+   echo $evaluacion_desde."     *";
+   echo $evaluacion_hasta."    *";
+   echo $puntaje."     *";
+   echo $bono;
+*/
+?>
 </div>
 
 <?= $footer; ?>

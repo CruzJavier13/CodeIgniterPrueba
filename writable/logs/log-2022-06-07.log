@@ -1,0 +1,223 @@
+CRITICAL - 2022-06-07 00:03:00 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(200): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:03:49 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(200): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:12:48 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(195): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:13:11 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(195): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:16:31 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(195): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:18:33 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(203): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:18:38 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(203): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:23:04 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(203): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:25:54 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(202): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:25:58 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(202): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:26:09 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(201): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:29:00 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(204): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:29:06 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(204): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:32:35 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(203): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:44:37 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(203): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:44:41 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(203): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:49:39 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(203): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:49:45 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(203): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:51:05 --> Allowed fields must be specified for model: App\Models\Evaluacion
+#0 C:\xampp\htdocs\prueba\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Eval...')
+#1 C:\xampp\htdocs\prueba\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(194): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->guardar()
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 00:51:11 --> Undefined variable $idempleado
+#0 C:\xampp\htdocs\prueba\app\Views\page\listar.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\prueba\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba\system\Common.php(1089): CodeIgniter\View\View->render('page/listar', Array, true)
+#4 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(16): view('page/listar', Array)
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->index()
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#7 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 00:51:42 --> Undefined variable $idempleado
+#0 C:\xampp\htdocs\prueba\app\Views\page\listar.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\prueba\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba\system\Common.php(1089): CodeIgniter\View\View->render('page/listar', Array, true)
+#4 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(16): view('page/listar', Array)
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->index()
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#7 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 00:51:43 --> Undefined variable $idempleado
+#0 C:\xampp\htdocs\prueba\app\Views\page\listar.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\prueba\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba\system\Common.php(1089): CodeIgniter\View\View->render('page/listar', Array, true)
+#4 C:\xampp\htdocs\prueba\app\Controllers\Empleados.php(16): view('page/listar', Array)
+#5 C:\xampp\htdocs\prueba\system\CodeIgniter.php(832): App\Controllers\Empleados->index()
+#6 C:\xampp\htdocs\prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#7 C:\xampp\htdocs\prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

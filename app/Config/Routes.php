@@ -57,5 +57,7 @@ $routes->post('evaluacion', 'Empleados::evaluacion');
 $routes->post('asistencia', 'Empleados::asistencia');
 $routes->get('editar/(:num)', 'Empleados::editar/$1');
 $routes->get('borrar/(:num)', 'Empleados::borrar/$1');
+
 $routes->post('actualizar/(:num)', 'Empleados::actualizar/$1');
 $routes->post('guardar','Empleados::guardar');
+

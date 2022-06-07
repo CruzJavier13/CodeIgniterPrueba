@@ -10,8 +10,8 @@ session_start();
         <input type="hidden" value="<?= $emp['id']; ?>">
             <label for="candidato" class="col-sm-2 col-form-label">Candidato:</label>
             <select class="form-select" aria-label="Default select example">
-                <option selected="Seleccionar">Seleccionar</option>
-                <option value="<?= $emp['nombre']; ?>"><?= $emp['nombre']; ?></option>
+                <option selected="Seleccionar"><?= $emp['nombre']; ?></option>
+                <!--<option value="<?php //echo $emp['nombre']; ?>"></option>-->
                 
             </select>
         </div>
